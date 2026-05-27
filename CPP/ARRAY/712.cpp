@@ -4,7 +4,6 @@
 
 using namespace std;
 
-/* ======= SOLUTION (PASTE THIS PART IN LEETCODE) ======= */
 class Solution
 {
 public:
@@ -43,7 +42,6 @@ public:
         return (sum1 + sum2) - 2 * dp[n][m];
     }
 };
-/* ====================================================== */
 
 int main()
 {

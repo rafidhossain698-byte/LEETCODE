@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 
-/* ===== ADD THIS IN LOCAL MACHINE ===== */
 struct TreeNode
 {
     int val;
@@ -10,7 +9,6 @@ struct TreeNode
 
     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
 };
-/* ===================================== */
 
 class Solution
 {

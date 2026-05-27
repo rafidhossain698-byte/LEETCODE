@@ -4,7 +4,6 @@
 
 using namespace std;
 
-/* ===== Tree Node Definition (needed for VS Code only) ===== */
 struct TreeNode
 {
     int val;
@@ -14,7 +13,6 @@ struct TreeNode
     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
 };
 
-/* ======= SOLUTION (PASTE THIS PART IN LEETCODE) ======= */
 class Solution
 {
 public:
@@ -60,20 +58,9 @@ public:
         return bestLevel;
     }
 };
-/* ====================================================== */
 
 int main()
 {
-
-    /*
-        Example tree:
-              1
-             / \
-            7   0
-           / \
-          7  -8
-    */
-
     TreeNode *root = new TreeNode(1);
     root->left = new TreeNode(7);
     root->right = new TreeNode(0);

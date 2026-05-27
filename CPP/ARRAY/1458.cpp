@@ -4,7 +4,6 @@
 
 using namespace std;
 
-/* ======= SOLUTION (PASTE THIS PART IN LEETCODE) ======= */
 class Solution
 {
 public:
@@ -49,7 +48,6 @@ public:
         return (int)dp[n - 1][m - 1];
     }
 };
-/* ====================================================== */
 
 int main()
 {

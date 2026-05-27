@@ -4,7 +4,6 @@
 
 using namespace std;
 
-/* ======= SOLUTION (PASTE THIS PART IN LEETCODE) ======= */
 class Solution
 {
 public:
@@ -25,7 +24,6 @@ public:
         return -1;
     }
 };
-/* ====================================================== */
 
 int main()
 {

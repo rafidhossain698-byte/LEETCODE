@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 
-/* ===== Tree Node Definition (needed for VS Code only) ===== */
 struct TreeNode
 {
     int val;
@@ -11,7 +10,6 @@ struct TreeNode
     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
 };
 
-/* ======= SOLUTION (PASTE THIS PART IN LEETCODE) ======= */
 class Solution
 {
 public:
@@ -47,19 +45,9 @@ public:
         return maxProd % 1000000007;
     }
 };
-/* ====================================================== */
 
 int main()
 {
-
-    /*
-        Example:
-              1
-             / \
-            2   3
-           / \
-          4   5
-    */
 
     TreeNode *root = new TreeNode(1);
     root->left = new TreeNode(2);

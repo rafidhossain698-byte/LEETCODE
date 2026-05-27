@@ -66,7 +66,6 @@ public:
 
         int count = 0;
 
-        // Check every 3x3 subgrid
         for (int i = 0; i <= rows - 3; i++)
         {
             for (int j = 0; j <= cols - 3; j++)
